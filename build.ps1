@@ -19,3 +19,4 @@ Remove-Item publish-netcoreapp2.1\*.pdb, publish-netcoreapp2.1\*.xml
 dotnet publish -c Release -f netcoreapp3.1 -o publish-netcoreapp3.1 de4dot
 if ($LASTEXITCODE) { exit $LASTEXITCODE }
 Remove-Item publish-netcoreapp3.1\*.pdb, publish-netcoreapp3.1\*.xml
+#
